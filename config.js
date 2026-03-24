@@ -100,7 +100,7 @@ module.exports = {
   CMD_REACTION: process.env.CMD_REACTION || 'true',
   AUTO_UPDATE: process.env.AUTO_UPDATE || 'true',
   WHITE_LIST: process.env.WHITE_LIST || '',
-  BOT_LANG: process.env.BOT_LANG || 'en',
+  BOT_LANG: process.env.BOT_LANG || 'ar',
   YT_COOKIE: process.env.YT_COOKIE,
   GROQ_MODEL: (process.env.GROQ_MODEL || 'llama-3.3-70b-versatile').trim(),
   GROQ_API_KEY: (process.env.GROQ_API_KEY || '').trim(),
